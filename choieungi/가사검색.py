@@ -25,8 +25,6 @@ def solution(words, queries):
     for query in queries:
         ret = 0
 
-
-
         length = len(query)
         if query[0] == "?" and query[-1] == "?":
             answer.append(len(arr[length]))
